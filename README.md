@@ -17,3 +17,10 @@ Plates match ignoring spaces, dashes and case ("abc 1234" = "ABC-1234")
 ATC section (hidden behind a password): add or update a pass, search, remove, delete all
 CSV upload, CSV template and CSV export
 Light and dark mode, works on phones
+
+API
+
+GET, POST, PUT, PATCH and DELETE for car passes
+Duplicate plates are rejected (unique index on the normalized plate)
+Database and table are created automatically on first run
+Swagger page for testing at /swagger
